@@ -1,0 +1,49 @@
+header{
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 14vh;
+    display: grid;
+    justify-items: center;
+    z-index: 30;
+
+}
+
+.header-container{
+    display: grid;
+    width: 70%;
+    color: white;
+    grid-auto-flow: column;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, -0.25);
+    border-radius: 50px;
+
+}
+
+.logo{
+    display: grid;
+    justify-content: right;
+    align-items: center;
+    font-size: 30px;
+    height: 100%;
+    padding-right: 5%;
+    font-family: cursive;
+}
+
+.nav-list-h{
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    font-family: roboto;
+    font-weight: 400;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav-list-h>li{
+    font-size: 18px;
+    opacity: .8;
+}
